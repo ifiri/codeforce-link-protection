@@ -1,0 +1,43 @@
+.tlp-form {
+
+}
+.tlp-form_type_list {}
+.tlp-form_type_list .column-ID {
+    width: 5%;
+    min-width: 55px;
+}
+
+
+.tlp-field-group {
+    margin-top: 20px;
+}
+.tlp-field-group:first-child,
+.tlp-field-group_chaining {
+    margin-top: 0;
+}
+
+.tlp-field__input {
+    width: 35em;
+    max-width: 100%;
+}
+.tlp-field__input_type_select {
+    height: 10em !important;
+}
+
+.tlp-field__title {
+    margin-bottom: 2px;
+}
+
+.tlp-fieldset {
+    margin-bottom: 20px;
+}
+.tlp-fieldset__title {
+
+}
+
+.tlp-field__description {
+
+}
+.tlp-field__description b {
+    font-weight: bold;
+}

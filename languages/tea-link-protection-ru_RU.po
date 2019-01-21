@@ -1,0 +1,329 @@
+# Avc Corp Funds
+# Copyright (C) 2017 AVC Team
+# This file is distributed under the MIT license.
+msgid ""
+msgstr ""
+"Project-Id-Version: tea-link-protection\n"
+"Report-Msgid-Bugs-To: Translator Name <no@email.com>\n"
+"POT-Creation-Date: 2018-02-04 19:42+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: bower_components\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: assets\n"
+
+#: app/AdminInterface/Elements/LinksListTable.php:12
+msgid "Link"
+msgstr "Ссылка"
+
+#: app/AdminInterface/Elements/LinksListTable.php:13
+msgid "Links"
+msgstr "Ссылки"
+
+#: app/AdminInterface/Elements/LinksListTable.php:90
+msgid "ID"
+msgstr ""
+
+#: app/AdminInterface/Elements/LinksListTable.php:91
+msgid "Link Address"
+msgstr "Адрес ссылки"
+
+#: app/AdminInterface/Elements/LinksListTable.php:92
+#: templates/admin/create-and-edit-link.php:21
+msgid "Link Type"
+msgstr "Тип ссылки"
+
+#: app/AdminInterface/Elements/LinksListTable.php:93
+msgctxt "column name"
+msgid "Created On"
+msgstr "Создано"
+
+#: app/AdminInterface/Elements/LinksListTable.php:135
+msgid "No links avaliable."
+msgstr "Нет доступных ссылок."
+
+#: app/AdminInterface/Pages/Models/CreateNewLink.php:11
+msgid "Create New"
+msgstr "Создать новую"
+
+#: app/AdminInterface/Pages/Models/CreateNewLink.php:12
+msgid "Tea Link Protection \\ Create New"
+msgstr "Tea Link Protection \\ Создать новую"
+
+#: app/AdminInterface/Pages/Models/EditLink.php:10
+msgid "Edit Link"
+msgstr "Редактировать ссылку"
+
+#: app/AdminInterface/Pages/Models/EditLink.php:11
+msgid "Tea Link Protection \\ Edit Link"
+msgstr "Tea Link Protection \\ Редактировать"
+
+#: app/AdminInterface/Pages/Models/LinksList.php:10
+#: templates/admin/links-list.php:2
+msgid "Links List"
+msgstr "Список ссылок"
+
+#: app/AdminInterface/Pages/Models/LinksList.php:11
+msgid "Tea Link Protection \\ Links List"
+msgstr "Tea Link Protection \\ Список ссылок"
+
+#: app/AdminInterface/Pages/Views/LinksList.php:53
+msgid "Links Per Page"
+msgstr "Ссылок на странице"
+
+#: app/AdminInterface/Partials/Models/LinkTypes/ChainSegments/Attachment.php:11
+msgid "Select attachment"
+msgstr "Выбрать вложение"
+
+#: app/AdminInterface/Partials/Models/LinkTypes/ChainSegments/Common.php:11
+msgid "Type the link address"
+msgstr "Напечатайте адрес ссылки"
+
+#: config.php:68
+msgid "Link was created successfully"
+msgstr "Ссылка была успешно создана"
+
+#: config.php:69
+msgid "Link was updated successfully"
+msgstr "Ссылка была успешно обновлена"
+
+#: config.php:70
+msgid "Link was deleted successfully"
+msgstr "Ссылка была успешно удалена"
+
+#: config.php:72
+msgid "During the link creation errors occurred. Link wasn't created."
+msgstr "Во время создания ссылки возникли проблемы. Ссылка не была создана."
+
+#: config.php:73
+msgid "During the link update errors occurred. Link wasn't updated."
+msgstr ""
+"Во время обновления ссылки возникли проблемы. Ссылка не была обновлена."
+
+#: config.php:74
+msgid "During the link deletion errors occurred. Link wasn't deleted."
+msgstr "Во время удаления ссылки возникли проблемы. Ссылка не была удалена."
+
+#: config.php:76
+msgid "All links was deleted successfully"
+msgstr "Все ссылки были успешно удалены"
+
+#: config.php:77
+msgid "During the links deletion errors occured. Links wasn't deleted."
+msgstr "Во время удаления ссылок возникли проблемы. Ссылки не были удалены."
+
+#: config.php:79
+msgid "This url is out of date or was compromised. Try again."
+msgstr "Это действие устарело или было скомпрометировано. Попытайтесь снова."
+
+#: config.php:80
+msgid "Current request is broken. Try again."
+msgstr "Ваш запрос некорректен. Попытайтесь снова."
+
+#: config.php:87
+msgid "Common Link"
+msgstr "Обычная ссылка"
+
+#: config.php:90
+msgid "Attachment"
+msgstr "Вложение"
+
+#: config.php:96
+msgid "IP Restriction"
+msgstr "Ограничение по IP"
+
+#: config.php:99
+msgid "Role Restriction"
+msgstr "Ограничение по роли"
+
+#: config.php:102
+msgid "Disposable Link"
+msgstr "Одноразовая ссылка"
+
+#: tea-link-protection.php:134
+#, php-format
+msgid ""
+"<b>Important!</b> Your version of PHP is less than <b>%s</b>! Tea Link "
+"Protection plugin will <b>NOT</b> run. Upgrade your PHP to version <b>%s</b> "
+"or higher. This is a minimal technical requirements."
+msgstr ""
+"<b>Важно!</b> Ваша версия PHP меньше, чем <b>%s</b>! Tea Link Protection "
+"<b>НЕ</b> будет запущен. Обновите ваш PHP до версии <b>%s</b> или новее. Это "
+"минимальные технические требования."
+
+#: templates/admin/create-and-edit-link.php:11
+msgid "Create new link"
+msgstr "Создать новую ссылку"
+
+#: templates/admin/create-and-edit-link.php:13
+msgid "Edit link"
+msgstr "Редактировать ссылку"
+
+#: templates/admin/create-and-edit-link.php:39
+msgid "Link Attributes"
+msgstr "Атрибуты ссылки"
+
+#: templates/admin/create-and-edit-link.php:48
+msgid "Submit"
+msgstr "Отправить"
+
+#: templates/admin/link-rules/disposable.php:30
+msgid "Regenerate the link after one triggering"
+msgstr "Создавать ссылку заново после одного срабатывания"
+
+#: templates/admin/link-rules/ip-restrict.php:23
+msgid ""
+"Enter one or multiple IPs, separated by commas. Subnet restriction and masks "
+"are allowed."
+msgstr ""
+"Введите один или несколько IP-адресов, разделенных запятыми. Подсети и маски "
+"разрешены."
+
+#: templates/admin/link-rules/role-restrict.php:33
+msgid ""
+"Select roles which will <b>have</b> access to link (if nothing selected, all "
+"roles will have access)"
+msgstr ""
+"Выберите роли, которые будут <b>иметь</b> доступ к ссылке (если ничего не "
+"выбрано, доступ будут иметь все роли)"
+
+#: templates/admin/link-types/chain-segments/attachment.php:35
+msgid "Select"
+msgstr "Выбрать"
+
+#: templates/admin/links-list.php:8
+msgid "Find"
+msgstr "Искать"
+
+#~ msgid "asdasd"
+#~ msgstr "4234234"
+
+#~ msgid "Suck my dick"
+#~ msgstr "Соси мой хер"
+
+#~ msgid ""
+#~ "Are you sure you want to recreate the content types? All already existing "
+#~ "types and taxonomies will be deleted. Their tags and content can be lost."
+#~ msgstr ""
+#~ "Вы действительно хотите пересоздать типы контента? Все уже сущесвующие "
+#~ "типы и таксономии будут удалены. Их тэги и содержимое может быть потеряно."
+
+#~ msgid "Are you sure you want to delete PDF from fund?"
+#~ msgstr "Вы действительно хотите удалить PDF из фонда?"
+
+#~ msgid "Insert Delightful Download"
+#~ msgstr "Вставить Delightful Download"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "DDownload Object"
+#~ msgstr "Объект Delightful Download"
+
+#~ msgid "Continue &rarr;"
+#~ msgstr "Подробнее &rarr;"
+
+#~ msgid "Not specified"
+#~ msgstr "Не указано"
+
+#~ msgid "Download PDF"
+#~ msgstr "Скачать PDF"
+
+#~ msgid "&laquo; Previous"
+#~ msgstr "&laquo; Назад"
+
+#~ msgid "Next &raquo;"
+#~ msgstr "Вперед &raquo;"
+
+#~ msgid ""
+#~ "<b>Important!</b> Your version of PHP is less than <b>%s</b>! This plugin "
+#~ "will <b>NOT</b> run. Upgrade your PHP to version <b>%s</b> or higher. "
+#~ "This is a minimal technical requirements."
+#~ msgstr ""
+#~ "<b>Внимание!</b> Ваша версия PHP меньше, чем <b>%s</b>! Этот плагин <b>НЕ "
+#~ "БУДЕТ</b> запущен. Обновите ваш PHP до версии <b>%s</b> или выше. Это "
+#~ "минимально необходимые технические требования."
+
+#~ msgid "Import from Excel was finished successfully!"
+#~ msgstr "Импорт из Excel был успешно завершен!"
+
+#~ msgid "Settings was updated succesfully!"
+#~ msgstr "Настройки были успешно обновлены!"
+
+#~ msgid "Autoformat Description"
+#~ msgstr "Автоматически форматировать описание"
+
+#~ msgid "Add field \"Relation\" in search form"
+#~ msgstr "Отобразить поле \"Отношение полей\" в форме поиска"
+
+#~ msgid "Upload"
+#~ msgstr "Загрузить"
+
+#~ msgid "Insert DDownload"
+#~ msgstr "Вставить DDownload"
+
+#~ msgid "AVC Corp Funds - Settings"
+#~ msgstr "AVC Corp Funds - Опции"
+
+#~ msgid "Select the action below:"
+#~ msgstr "Выберите действие:"
+
+#~ msgid "Create \\ Recreate Content Types"
+#~ msgstr "Создать \\ Пересоздать типы контента"
+
+#~ msgid " or "
+#~ msgstr "или"
+
+#~ msgid "Update From Excel"
+#~ msgstr "Обновить из Excel"
+
+#~ msgid "Or tune something:"
+#~ msgstr "Или настройте что-нибудь:"
+
+#~ msgid "Update Settings"
+#~ msgstr "Обновить настройки"
+
+#~ msgid "Relation"
+#~ msgstr "Отношение полей"
+
+#~ msgid "All fields"
+#~ msgstr "Совпадение всех полей"
+
+#~ msgid "Any field"
+#~ msgstr "Совпадение любого поля"
+
+#~ msgid "Select..."
+#~ msgstr "Выберите..."
+
+#~ msgid "Equals"
+#~ msgstr "Равно"
+
+#~ msgid "Greater than"
+#~ msgstr "Больше"
+
+#~ msgid "Lesser than"
+#~ msgstr "Меньше"
+
+#~ msgid "Search"
+#~ msgstr "Искать"
+
+#~ msgid "Availability of a PDF"
+#~ msgstr "Наличие PDF"
+
+#~ msgid "Download PDF %s"
+#~ msgstr "СКАЧАТЬ PDF \"%s\""
